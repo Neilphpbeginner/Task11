@@ -40,6 +40,4 @@ public class Lion extends Animal {		// Using the keyword extends to inherit the 
 	public String toString() {
 		return checkGender(this.getWeight()); // Calling the checkGender method to output to console
 	}
-	
-	
 }
