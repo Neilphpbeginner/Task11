@@ -10,7 +10,9 @@ public class Lion extends Animal {		// Using the keyword extends to inherit the 
 	
 	public Lion(int numTeeth, boolean spots, int weight, int age) {
 		super(numTeeth, spots, weight); // Super class variables
+
 //	Class specific variable getting allocated data types with the use of the constructor
+		
 		this.age 	=	age;	
 	}
 	

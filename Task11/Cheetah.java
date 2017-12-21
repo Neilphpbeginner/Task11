@@ -4,7 +4,7 @@ public class Cheetah extends Animal {		// Defining class and inheritance super c
 	
 	private String name;					// Class Specific variable
 	
-//	Defining the constructor for this class that uses variables from the super class and class specific variable
+//	Defining the constructor for this class that uses variables from the super class
 
 	public Cheetah(int numTeeth, boolean spots, int weight) {
 		super(numTeeth, spots, weight);
@@ -28,9 +28,4 @@ public class Cheetah extends Animal {		// Defining class and inheritance super c
 	public String toString() {
 		return "Hi my name is "+this.name+" I am a Cheetah";
 	}
-	
-	
-	
-	
-
 }
