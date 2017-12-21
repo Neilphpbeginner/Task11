@@ -30,6 +30,4 @@ public class Animal {  // Defining the class Animal
 	public int getWeight() {
 		return weight;
 	}
-	
-	
 }
